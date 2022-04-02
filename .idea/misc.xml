@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/PC/AndroidStudioProjects/WhiteRabbitDemo/app/src/main/res/drawable/border_balance.xml" value="0.111" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/WhiteRabbitDemo/app/src/main/res/drawable/border_box.xml" value="0.111" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/WhiteRabbitDemo/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.111" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/WhiteRabbitDemo/app/src/main/res/drawable/ic_baseline_search.xml" value="0.111" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/WhiteRabbitDemo/app/src/main/res/layout/activity_employee_detail_screen.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/WhiteRabbitDemo/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/WhiteRabbitDemo/app/src/main/res/layout/activity_splash_screen.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/WhiteRabbitDemo/app/src/main/res/layout/employee_item.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
