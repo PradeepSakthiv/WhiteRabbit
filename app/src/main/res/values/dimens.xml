@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="splash_logo_size">100dp</dimen>
+    <dimen name="header_size">20sp</dimen>
+    <dimen name="margin_8">8dp</dimen>
+
+</resources>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">WhiteRabbitDemo</string>
+    <string name="name">Name</string>
+    <string name="username">UserName</string>
+    <string name="email">Email</string>
+    <string name="address">Address</string>
+    <string name="phone">Phone</string>
+    <string name="website">Website</string>
+    <string name="company_details">Company Details</string>
+    <string name="search_by_name">Search by name</string>
+    <string name="no_data">No Data</string>
+</resources>

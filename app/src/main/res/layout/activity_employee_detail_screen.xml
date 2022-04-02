@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.EmployeeDetailScreen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/app_color"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?android:attr/actionBarSize"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:id="@+id/header_tle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/app_name"
+                android:textColor="@color/white"
+                android:textSize="@dimen/header_size"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_margin="@dimen/margin_8"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:src="@drawable/ic_baseline_person_24"
+            android:id="@+id/employee_image"
+            android:layout_width="@dimen/splash_logo_size"
+            android:layout_height="@dimen/splash_logo_size">
+
+        </de.hdodenhof.circleimageview.CircleImageView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_margin="@dimen/margin_8"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/name" />
+
+        <TextView
+            android:id="@+id/name"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:textStyle="normal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_margin="@dimen/margin_8"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/username" />
+
+        <TextView
+            android:id="@+id/username"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:textStyle="normal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_margin="@dimen/margin_8"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/email" />
+
+        <TextView
+            android:id="@+id/email"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:textStyle="normal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_margin="@dimen/margin_8"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/address" />
+
+        <TextView
+            android:id="@+id/address"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:textStyle="normal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_margin="@dimen/margin_8"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/phone" />
+
+        <TextView
+            android:id="@+id/phone"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:textStyle="normal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_margin="@dimen/margin_8"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/website" />
+
+        <TextView
+            android:id="@+id/website"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:textStyle="normal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_margin="@dimen/margin_8"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/company_details" />
+
+        <TextView
+            android:id="@+id/company"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:textStyle="normal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+</LinearLayout>
